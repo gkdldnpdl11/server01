@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
     @GetMapping("/")
     public String homeString() {
-        return "hello";
+        return "Welcome This is React World";
     }
-    
+
 }
